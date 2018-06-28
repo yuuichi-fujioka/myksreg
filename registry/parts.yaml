@@ -1,0 +1,21 @@
+name: registry
+apiVersion: 0.0.1
+kind: ksonnet.io/parts
+description: docker registry
+author: Yuuichi Fujioka <fujioka.yuuichi@gmail.com>
+contributors: []
+repository:
+  type: git
+  url: https://github.com/yuuichi-fujioka/myksreg
+bugs:
+  url: https://github.com/yuuichi-fujioka/myksreg/issues
+keywords:
+- docker-registory
+- server
+quickStart:
+  prototype: work.fujioka.pkg.registry-simple
+  componentName: registry
+  flags:
+    name: registry
+  comment: Run a simple docker registry
+license: Apache 2.0
